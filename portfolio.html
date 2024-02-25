@@ -173,6 +173,7 @@
 									<a href="#" class="next">Next</a>
 								</div> -->
 								<h2> CONTACT ME</h2>
+								
 							</footer> 
 
 					</div>
@@ -180,24 +181,18 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+							<form action="https://formspree.io/f/mbjnygoa" method="POST">
+								<label>
+									Name: <input type="text" name="name">
+								</label>
+								<label>
+									Your email:	<input type="email" name="email">
+								</label>
+								<label>
+									Your message: <textarea name="message"></textarea>
+								</label>
+								<!-- your other form fields go here -->
+								<button type="submit">Send Message</button>
 							</form>
 						</section>
 						<section class="split contact">
